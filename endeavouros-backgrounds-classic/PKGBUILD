@@ -13,7 +13,6 @@ source=(
 )
 md5sums=('d886608813ce619e6196a6ac6d902218')
 sha512sums=('0551391fb1cdf173806cf0ebf4502d34159404dbc195fc11c2cc3e20de459e4b2af8529b673475e3f564c844766d717806635914b2837c26b834d6e43b2a5cfa')
-install=$pkgname.install
 
 package() {
   cd "$srcdir/${pkgname}-$pkgver"
